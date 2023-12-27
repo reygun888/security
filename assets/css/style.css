@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: white !important;
+    font-size: small;
+    font-weight: lighter;
+    height: 30px;
+}
+
+.logo {
+
+    background-color: white !important;
+    height: 50px;
+    display: flex;
+
+}
+
+.lien {
+    display: flex;
+    margin-left: 30px;
+}
+
+.info {
+    color: white;
+    display: flex;
+    width: 20%;
+    padding-left: 16px;
+    text-decoration: auto;
+    font-size: 15px;
+    width: 100%;
+    justify-content: end;
+    padding-right: 28px;
+    font-weight: bold;
+    font-size: smaller;
+
+}
+
+.coordonnee {
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.495);
+}
+
+.precision {
+    border-right: 1px solid rgba(128, 128, 128, 0.41);
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin: 5px;
+
+}
+
+.precision_1 {
+
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+p {
+    text-decoration: auto;
+    color: black;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+    margin-right: 10px;
+    font-size: x-small !important;
+}
+
+.menu1 {
+    margin-bottom: 50%;
+}
+
+.maison,
+h6 {
+    color: #E45F4E !important;
+}
+
+.slogan {
+    color: #E45F4E;
+    margin-top: 25%;
+    font-weight: bolder;
+}
+
+h1 {
+    color: white !important;
+    font-size: 30px !important;
+}
+
+.links {
+    background-color: #E45F4E !important;
+    border: none;
+    border-radius: 0 !important;
+    color: white;
+    font-size: 15px !important;
+    font-weight: lighter !important;
+}
+
+.entete {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.fleche {
+    background-color: #E45F4E;
+    border-radius: 50%;
+
+}
+
+.col {
+    border-right: 1px solid rgba(128, 128, 128, 0.41);
+}
+
+.col .logo_para {
+    color: #E45F4E;
+    position: absolute;
+    transform: translate(-30%, 30%);
+}
+
+.glyph-icon.flaticon-surveillance::before,
+.glyph-icon.flaticon-helmet::before,
+.glyph-icon.flaticon-policeman::before {
+    font-size: 70px;
+    padding: 70px;
+}
+
+.para {
+    padding-left: 80px !important;
+}
+
+.propos {
+    border: none !important;
+}
+
+.glyph-icon.flaticon-approved::before {
+    color: #E45F4E;
+    font-size: 70px;
+    margin: 0%;
+}
+
+.glyph-icon.flaticon-medal::before {
+    color: #E45F4E;
+    font-size: 70px;
+    margin: -5%;
+}
+
+.containe {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.intitule,
+.sect,
+.profession,
+.detail {
+    color: black !important;
+}
+
+.services {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.respi {
+    color: white !important;
+    font-size: 15px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.secu,
+.glyph-icon,
+.menu,
+.adress {
+    color: white;
+}
+
+.flaticon-desk:before,
+.flaticon-home:before,
+.flaticon-factory:before,
+.flaticon-transportation:before,
+.flaticon-bodyguard:before {
+    background-color: #E45F4E;
+    padding: 5px;
+    margin: 0 !important;
+}
+
+.banniere {
+    background-color: #E45F4E;
+}
+
+.team {
+    color: white !important;
+    padding: 10%;
+}
+
+.icone {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: x-small;
+}
+
+.level {
+    border: 1px solid rgba(128, 128, 128, 0.41);
+}
+
+.h_level,
+.descriptif,
+.droits,
+.detail_text {
+    font-weight: lighter;
+}
+
+.learn {
+    font-weight: lighter !important;
+    font-size: large !important;
+}
+
+.arguments {
+    color: black;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.pub .flaticon-policeman:before {
+    background-color: #E45F4E;
+    padding: 5px !important;
+    font-size: 25px !important;
+    margin: 0 !important;
+}
+
+.pub .flaticon-approved:before {
+    background-color: #E45F4E;
+    color: white;
+    padding: 5px !important;
+    font-size: 25px !important;
+    margin: 0 !important;
+}
+
+.pub .flaticon-helmet:before {
+    background-color: #E45F4E;
+    padding: 5px !important;
+    font-size: 25px !important;
+    margin: 0 !important;
+}
+
+.pub .flaticon-bodyguard:before {
+    background-color: #E45F4E;
+    padding: 5px !important;
+    font-size: 25px !important;
+    margin: 0 !important;
+}
+
+.pub .flaticon-medal:before {
+    background-color: #E45F4E;
+    color: white;
+    padding: 5px !important;
+    font-size: 25px !important;
+    margin: 0 !important;
+}
+
+.pub .flaticon-surveillance:before {
+    background-color: #E45F4E;
+    padding: 5px !important;
+    font-size: 25px !important;
+    margin: 0 !important;
+}
+
+.newsletter {
+    background-color: #E45F4E;
+    color: white;
+}
+
+.abo {
+    color: white;
+    font-size: x-small;
+    font-weight: lighter;
+}
+
+.designation {
+    color: rgba(0, 0, 0, 0.696);
+}
+
+.agent_link {
+    color: #E45F4E;
+    font-size: large;
+}
+
+.perso {
+    max-width: 600px;
+    border: none !important;
+}
+
+.bubble-text {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    font-weight: lighter;
+}
+
+.bubble-text::after {
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white;
+    left: 20%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.client {
+    color: #E45F4E !important;
+    text-transform: uppercase;
+}
+
+.comment {
+    border: 15px solid white;
+    border-radius: 50%;
+    width: 35%;
+}
+
+.blog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-solid.fa-link {
+    color: white;
+    background-color: #E45F4E;
+    padding: 10px;
+    margin: 0 !important;
+}
+
+.details {
+    color: #E45F4E;
+    margin: 0% !important;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.852);
+}
+
+.menu p,
+a {
+    color: white !important;
+}
+
+.social {
+    border: 1px solid white !important;
+    border-radius: 50% !important;
+    font-size: small;
+    color: white;
+}
+
+.end {
+    font-size: smaller;
+
+}
+
+@media (max-width:768px) {
+    .bubble-text {
+        width: 90%;
+    }
+}
+
+@media (max-width:480px) {
+    .bubble-text {
+        width: 100%;
+        padding: 0.8pm;
+    }
+}
