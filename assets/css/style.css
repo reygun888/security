@@ -76,6 +76,15 @@ a {
     margin-bottom: 50%;
 }
 
+.dropdown-menu{
+    background-color: #E45F4E !important;
+    border: none;
+}
+
+.dropdown-item:hover{
+    background-color: transparent !important;
+}
+
 .maison,
 h6 {
     color: #E45F4E !important;
@@ -109,9 +118,21 @@ h1 {
     z-index: 2;
 }
 
-.fleche {
-    background-color: #E45F4E;
+.fa-circle-chevron-left{
+    color: #e45f4e;
+    background-color: white;
+    font-size: 40px;
     border-radius: 50%;
+    margin-left: 100px;
+}
+    
+.fa-circle-chevron-right{
+    color: #e45f4e;
+    background-color: white;
+    font-size: 40px;
+    border-radius: 50%;
+    margin-right: 100px;
+    padding: 0;
 }
 
 .col {
@@ -392,5 +413,31 @@ a {
     .bubble-text {
         width: 100%;
         padding: 0.8pm;
+    }
+
+    .entete{
+        width: 100%;
+        font-size: xx-small;
+    }
+
+    .menu1 {
+        margin-bottom: -20%;
+    }
+
+    .titre {
+        margin-bottom: 55%;
+    }
+
+    .fleche {
+        margin-bottom: 700%;
+    }
+
+    .securite{
+        width: 100%;
+    }
+
+    .contact{
+        width: 100%;
+        font-size: xx-small;
     }
 }

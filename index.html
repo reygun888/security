@@ -121,14 +121,21 @@
 
                     </div>
 
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                        data-bs-slide="prev">
-                        <span class="fleche carousel-control-prev-icon" aria-hidden="true"></span>
+                    <div class="button_slide">
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade" data-bs-slide="prev">
+                        <span class="fleche carousel-control-prev" aria-hidden="true" id="carousel-control-prev"><i
+                        class="fa-solid fa-circle-chevron-left"></i></span>
+                        <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                        data-bs-slide="next">
-                        <span class="fleche carousel-control-next-icon" aria-hidden="true"></span>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFade" data-bs-slide="next">
+                        <span class="fleche carousel-control-next" aria-hidden="true"><i
+                        class="fa-solid fa-circle-chevron-right"></i></span>
+                        <span class="visually-hidden">Next</span>
                     </button>
+
+                    </div>
 
                 </div>
 
@@ -153,9 +160,16 @@
                         <a href="#garde">
                             Gardes
                         </a>
-                        <a class="dropdown-toggle" href="">
+                        <a class="dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Pages
                         </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#chiffre">Nos chiffres</a></li>
+                            <li><a class="dropdown-item" href="#temoignage">Témoignage</a></li>
+                            <li><a class="dropdown-item" href="#blog">Blog</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#newsletter">Abonnement aux newsletters</a></li>
+                        </ul>
                         <a href="#footer">
                             Contact
                         </a>
@@ -515,7 +529,7 @@
 
         <!--Chiffres-->
 
-        <section class="banniere text-center ">
+        <section id="chiffre" class="banniere text-center ">
 
             <div class=" team row ">
 
@@ -745,7 +759,7 @@
 
         <!--Newsletter-->
 
-        <section class="newsletter">
+        <section id="newsletter" class="newsletter">
 
             <div class="text-center pt-5">
                 <h2 class="text-uppercase">
@@ -990,11 +1004,11 @@
 
         <!--Commentaire des clients-->
 
-        <section class=" bg-light m-0 p-5 ">
+        <section id="temoignage" class=" bg-light m-0 p-5 ">
 
             <div class="text-uppercase text-center">
                 <h6>
-                    Témoingnage
+                    Témoignage
                 </h6>
                 <h2>
                     Ce que disent nos clients
@@ -1365,7 +1379,7 @@
 
         <!--Blog-->
 
-        <section class="services">
+        <section id="blog" class="services">
 
             <div class="text-uppercase text-center my-5">
                 <h6>
