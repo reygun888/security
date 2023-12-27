@@ -13,11 +13,9 @@ header {
 }
 
 .logo {
-
     background-color: white !important;
     height: 50px;
     display: flex;
-
 }
 
 .lien {
@@ -37,7 +35,6 @@ header {
     padding-right: 28px;
     font-weight: bold;
     font-size: smaller;
-
 }
 
 .coordonnee {
@@ -51,11 +48,9 @@ header {
     padding-top: 5px;
     padding-left: 10px;
     margin: 5px;
-
 }
 
 .precision_1 {
-
     padding-top: 10px;
     padding-left: 10px;
 }
@@ -76,12 +71,12 @@ a {
     margin-bottom: 50%;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     background-color: #E45F4E !important;
     border: none;
 }
 
-.dropdown-item:hover{
+.dropdown-item:hover {
     background-color: transparent !important;
 }
 
@@ -118,15 +113,15 @@ h1 {
     z-index: 2;
 }
 
-.fa-circle-chevron-left{
+.fa-circle-chevron-left {
     color: #e45f4e;
     background-color: white;
     font-size: 40px;
     border-radius: 50%;
     margin-left: 100px;
 }
-    
-.fa-circle-chevron-right{
+
+.fa-circle-chevron-right {
     color: #e45f4e;
     background-color: white;
     font-size: 40px;
@@ -347,6 +342,15 @@ h1 {
     text-transform: uppercase;
 }
 
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #E45F4E !important;
+    border: none;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
 .comment {
     border: 15px solid white;
     border-radius: 50%;
@@ -388,7 +392,6 @@ a {
 
 .end {
     font-size: smaller;
-
 }
 
 @media (max-width:768px) {
@@ -415,11 +418,6 @@ a {
         padding: 0.8pm;
     }
 
-    .entete{
-        width: 100%;
-        font-size: xx-small;
-    }
-
     .menu1 {
         margin-bottom: -20%;
     }
@@ -432,12 +430,9 @@ a {
         margin-bottom: 700%;
     }
 
-    .securite{
+    .securite,
+    .contact,
+    .entete {
         width: 100%;
-    }
-
-    .contact{
-        width: 100%;
-        font-size: xx-small;
     }
 }
