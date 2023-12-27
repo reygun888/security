@@ -112,7 +112,6 @@ h1 {
 .fleche {
     background-color: #E45F4E;
     border-radius: 50%;
-
 }
 
 .col {
@@ -374,6 +373,18 @@ a {
 @media (max-width:768px) {
     .bubble-text {
         width: 90%;
+    }
+
+    .menu1 {
+        margin-bottom: 25%;
+    }
+
+    .titre {
+        margin-bottom: 20%;
+    }
+
+    .fleche {
+        margin-bottom: 200%;
     }
 }
 
