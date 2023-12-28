@@ -145,6 +145,7 @@ h1 {
 .glyph-icon.flaticon-policeman::before {
     font-size: 70px;
     padding: 70px;
+    margin-left: 20px;
 }
 
 .para {
@@ -155,15 +156,13 @@ h1 {
     border: none !important;
 }
 
-.glyph-icon.flaticon-approved::before {
-    color: #E45F4E;
-    font-size: 70px;
-    margin: 0%;
-}
-
+.glyph-icon.flaticon-approved::before,
 .glyph-icon.flaticon-medal::before {
     color: #E45F4E;
     font-size: 70px;
+}
+
+.glyph-icon.flaticon-medal::before {
     margin: -5%;
 }
 
@@ -205,7 +204,6 @@ h1 {
 .flaticon-bodyguard:before {
     background-color: #E45F4E;
     padding: 5px;
-    margin: 0 !important;
 }
 
 .banniere {
@@ -247,45 +245,14 @@ h1 {
     font-weight: bolder;
 }
 
-.pub .flaticon-policeman:before {
-    background-color: #E45F4E;
-    padding: 5px !important;
-    font-size: 25px !important;
-    margin: 0 !important;
-}
-
-.pub .flaticon-approved:before {
-    background-color: #E45F4E;
-    color: white;
-    padding: 5px !important;
-    font-size: 25px !important;
-    margin: 0 !important;
-}
-
-.pub .flaticon-helmet:before {
-    background-color: #E45F4E;
-    padding: 5px !important;
-    font-size: 25px !important;
-    margin: 0 !important;
-}
-
-.pub .flaticon-bodyguard:before {
-    background-color: #E45F4E;
-    padding: 5px !important;
-    font-size: 25px !important;
-    margin: 0 !important;
-}
-
-.pub .flaticon-medal:before {
-    background-color: #E45F4E;
-    color: white;
-    padding: 5px !important;
-    font-size: 25px !important;
-    margin: 0 !important;
-}
-
+.pub .flaticon-policeman:before,
+.pub .flaticon-approved:before,
+.pub .flaticon-helmet:before,
+.pub .flaticon-bodyguard:before,
+.pub .flaticon-medal:before,
 .pub .flaticon-surveillance:before {
     background-color: #E45F4E;
+    color: white;
     padding: 5px !important;
     font-size: 25px !important;
     margin: 0 !important;
