@@ -159,16 +159,15 @@ h1 {
 .glyph-icon.flaticon-approved::before,
 .glyph-icon.flaticon-medal::before {
     color: #E45F4E;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .glyph-icon.flaticon-medal::before {
-    margin: -5%;
+    margin: -3%;
 }
 
 .containe {
     display: flex !important;
-    justify-content: space-between !important;
 }
 
 .intitule,
@@ -243,6 +242,10 @@ h1 {
     font-size: 20px;
     font-style: normal;
     font-weight: bolder;
+}
+
+.pourquoi_nous {
+    width: 25rem !important;
 }
 
 .pub .flaticon-policeman:before,
@@ -375,12 +378,13 @@ a {
     }
 
     .titre {
-        margin-bottom: 20%;
+        margin-bottom: 25%;
     }
 
     .fleche {
         margin-bottom: 200%;
     }
+
 }
 
 @media (max-width:480px) {
@@ -390,15 +394,16 @@ a {
     }
 
     .menu1 {
-        margin-bottom: -20%;
+        margin-bottom: -25%;
+        margin-top: -5%;
     }
 
     .titre {
-        margin-bottom: 55%;
+        margin-bottom: 25%;
     }
 
     .fleche {
-        margin-bottom: 700%;
+        margin-bottom: 400%;
     }
 
     .securite,
@@ -406,4 +411,5 @@ a {
     .entete {
         width: 100%;
     }
+
 }
