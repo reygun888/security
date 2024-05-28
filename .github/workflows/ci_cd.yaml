@@ -33,18 +33,11 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Create deploy directory and copy assets
-        run: |
-          mkdir deploy
-          cp -R asset/. deploy/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: 'deploy'
+          path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-        artifact_path: 'deploy'
-        target_folder: '.
